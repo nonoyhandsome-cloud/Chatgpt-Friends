@@ -1,77 +1,18 @@
-# Chatgpt-Friends
-How to Run it 
+# 🚀 Setup and Run the ChatGPT Friends App
+1. Installation
+Make sure you install: Node.js (v18 or later) or npm (comes with Node.js)
+Then check the installation using this command: node -v  npm -v
 
-1️⃣ Install Node.js
-Download and install Node.js first:
+2. Clone the Repository
+Clone the repository: git clone https://github.com/YOUR-USERNAME/chatgpt-friends-app.git
 
-Go to: https://nodejs.org
+Go to the project folder: cd chatgpt-friends-app
 
-Install the LTS version
+4. Install Dependencies
+Install the required packages using npm: npm install
 
-After installing, open a terminal and check:
+5. Start the Server
+Run the Node.js server: node server.js
 
-node -v
-npm -v
-
-If both show versions, you're good.
-
-
-2️⃣ Extract the ZIP
-
-Unzip the file.
-You should see a folder like:
-
-chatgpt-friends-app
-
-Inside it there are files like:
-
-server.js
-package.json
-friends.db
-public/
-node_modules/
-
-
-3️⃣ Open Terminal in the Folder
-
-Navigate to the folder:
-
-cd chatgpt-friends-app
-
-Example (Windows):
-
-cd Downloads/chatgpt-friends-app
-
-
-4️⃣ Install Dependencies (optional but recommended)
-
-Run:
-
-npm install
-
-This installs:
-express
-sqlite3
-cors
-body-parser
-
-
-5️⃣ Start the Server
-
-Run:
-
-node server.js
-
-You should see something like:
-
-Connected to the SQLite database.
-Server running on port 3000
-
-
-6️⃣ Open the App
-
-Open your browser and go to:
-
-http://localhost:3000
-
-That will load the app from the public folder.
+6. Open the App in Your Browser
+Go to: http://localhost:3000
